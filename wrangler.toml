@@ -1,0 +1,6 @@
+name = "fastsearch"
+compatibility_date= "2024-04-09"
+
+[vars]
+UPSTASH_REDIS_REST_TOKEN = Ab__ASQgZTQwYzMzYjEtNDMwYy00MDQxLWIwMjYtYWVhOGM1NWQ2MzYyMTI5NjhiNGU0MDFjNGE5NGE3OTIzZmE3MjA4NjY0OWU=
+UPSTASH_REDIS_REST_URL = https://fluent-ewe-49151.upstash.io
