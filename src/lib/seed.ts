@@ -1,8 +1,8 @@
 import { Redis } from '@upstash/redis'
 
 const redis = new Redis({
-  url: 'https://fluent-ewe-49151.upstash.io',
-  token: 'Ab__ASQgZTQwYzMzYjEtNDMwYy00MDQxLWIwMjYtYWVhOGM1NWQ2MzYyMTI5NjhiNGU0MDFjNGE5NGE3OTIzZmE3MjA4NjY0OWU=',
+  url: process.env.UPSTASH_REDIS_REST_URL!,
+  token: process.env.UPSTASH_REDIS_REST_TOKEN!,
 })
 
 const countryList = [
